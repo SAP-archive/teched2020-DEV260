@@ -2,15 +2,24 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2020 session called **DEV260** - **Build SAP Fiori Apps with the ABAP RESTful Application Programming Model**.  
 
 ## Overview
 
-This session introduces attendees to...
+In this session we will guide you to build a draft-enabled transactional SAP Fiori Elements Application based on the ABAP RESTful Application Programming Model (in short RAP). The underlying OData service will be exposed using the OData V4 protocol, and the resulting app will look like this:
+
+![APP Overview](images/app_overview.png)
+
+The Fiori app you are going to implement is based on the RAP Flight Reference Scenario. To set the business context the scenario is the following: The department responsible for managing worldwide Travels for multiple Agencies is requesting you to build a new Fiori app with draft capabilities for processing (i.e. creating, updating and deleting) Travels.
+
+Further reading: [Developing Transactional Apps with Draft Capabilities](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/71ba2bec1d0d4f22bc344bba6b569f2e.html)
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are:
+
+* You have installed the ABAP Development Tools (ADT), see [ABAP Development Tools](https://tools.hana.ondemand.com/#abap)
+* You have created a SAP Cloud Platform ABAP Environment Trial Account and connected your ADT to the Trial Account using a ABAP Cloud Project, see [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 
 ## Exercises
 
