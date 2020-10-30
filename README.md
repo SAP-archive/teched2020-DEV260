@@ -18,33 +18,24 @@ Further reading: [Developing Transactional Apps with Draft Capabilities](https:/
 
 The requirements to follow the exercises in this repository are:
 
-* You have installed the ABAP Development Tools (ADT), see [ABAP Development Tools](https://tools.hana.ondemand.com/#abap)
+* You have installed the _latest_ ABAP Development Tools (ADT), see [ABAP Development Tools](https://tools.hana.ondemand.com/#abap)
 * You have created a SAP Cloud Platform ABAP Environment Trial Account and connected your ADT to the Trial Account using a ABAP Cloud Project, see [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+Follow these steps to build a draft-enabled transactional Fiori app with RAP.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-
-**OR** Link to the PDF document stored in your github repo for example...
-
-Start the exercises [here](exercises/myPDFDoc.pdf).
-    
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 1 - Database Tables](exercises/ex1/)
+- [Exercise 2 - Core Data Services (CDS) Data Model](exercises/ex2/)
+- [Exercise 3 - CDS Data Model Projection](exercises/ex3/)
+- [Exercise 4 - Metadata Extensions](exercises/ex4/)
+- [Exercise 5 - Business Service](exercises/ex5/)
+- [Exercise 6 - Business Object Behavior](exercises/ex6/)
+- [Exercise 7 - Actions](exercises/ex7/)
+- [Exercise 8 - Determinations](exercises/ex8/)
+- [Exercise 9 - Validations](exercises/ex9/)
+- [Exercise 10 - Authorizations](exercises/ex10/)
 
 ## How to obtain support
 
