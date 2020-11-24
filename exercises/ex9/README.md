@@ -9,7 +9,7 @@ Further information can be found here: [Developing Validations](https://help.sap
 
 ## Exercise 9.1 - Message Class
 In the behavior implementations, you will make use of your own _T100_ messages, raised by an own exception class. 
-Therefore, you will first create the message class **`ZRAP_MSG_####`** to define your own `T100` messages and the exception class **`ZCM_RAP_####`**, where **`####`** is your group-id.
+Therefore, you will first create the message class **`ZRAP_MSG_####`** to define your own `T100` messages and the exception class **`ZCM_RAP_####`**, where **`####`** is your group ID.
 
 1.	Right-click on your package and choose _**New > Other ABAP Repository Object**_.
 
@@ -19,7 +19,7 @@ Therefore, you will first create the message class **`ZRAP_MSG_####`** to define
     
     ![Create the Message Class](images/validation02.png)
         
-3.	Maintain **`ZRAP_MSG_####`** as **name**, where **`####`** is your group-id, and a **description** (e.g. **`RAP messages`**) and choose **Next >**.
+3.	Maintain **`ZRAP_MSG_####`** as **name**, where **`####`** is your group ID, and a **description** (e.g. **`RAP messages`**) and choose **Next >**.
      
     ![Create the Message Class](images/validation03.png)
     
@@ -46,7 +46,7 @@ Therefore, you will first create the message class **`ZRAP_MSG_####`** to define
     
     ![Create the Exception Class](images/validation05.png)
     
-2.	Maintain **`ZCM_RAP_####`** (where **`####`** is your group-id) as **name** and a **description** (e.g. **`RAP Messages`**).
+2.	Maintain **`ZCM_RAP_####`** (where **`####`** is your group ID) as **name** and a **description** (e.g. **`RAP Messages`**).
     
     Maintain **`CX_STATIC_CHECK`** as **Superclass** and then add **`IF_ABAP_BEHV_MESSAGE`** under **Interfaces**.
     
@@ -58,16 +58,16 @@ Therefore, you will first create the message class **`ZRAP_MSG_####`** to define
      
     ![Create the Exception Class](images/validation07.png)
     
-4.	Replace the **entire** code of the exception class with the following coding and replace all occurrences of `####` with your group-id:
+4.	Replace the **entire** code of the exception class with the following coding and replace all occurrences of `####` with your group ID:
 
-    [Exception Class ZCM_RAP_####](sources/EX9_2_CLAS_ZCM_RAP.txt)
+    > Find the source code here: [Exception Class ZCM_RAP_####](sources/EX9_2_CLAS_ZCM_RAP.txt)
 
     This defines five message constants for the five T100 messages the were defined before. It also specifies required variables for storing the message parameters. For parameters of type NUMC we perform an alpha conversion to remove leading zeros.
 
 5. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the exception class.
 
 ## Exercise 9.3 - Behavior Definition - Validation
-1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group-id – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
+1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group ID – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
 
 2. Add the following lines into the **Travel** entity, right after the previously defined determinations.
 
@@ -83,11 +83,11 @@ Therefore, you will first create the message class **`ZRAP_MSG_####`** to define
 
 3. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the behavior definition.
 
-4. You can again use the quick-fixes to update the local handler class in the behavior implementation class. This approach would be used in a regular development flow.
+4. You can again use the Quick Fixes to update the local handler class in the behavior implementation class. This approach would be used in a regular development flow.
 
-5. In this exercise we replace the entire code with the prepared one. Open the behavior implementation class **zbp_i_rap_travel_####** for the **Travel** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group-id:
+5. In this exercise we replace the entire code with the prepared one. Open the behavior implementation class **zbp_i_rap_travel_####** for the **Travel** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group ID:
 
-    [Behavior Implementation Class ZBP_I_RAP_TRAVEL_####](sources/EX9_3_CLAS_ZBP_I_RAP_TRAVEL.txt)
+    > Find the source code here: [Behavior Implementation Class ZBP_I_RAP_TRAVEL_####](sources/EX9_3_CLAS_ZBP_I_RAP_TRAVEL.txt)
 
     This declares and implements three validations. 
     
@@ -106,7 +106,7 @@ Before draft instances become active, they are checked by the validations and de
 
 Further information can be found here: [Preparing Draft Instances for Activation](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/8eb32c2936904f95acffaec95ab1edd5.html) 
 
-1. In the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group-id – add the following lines into the **Travel** entity, right after the previously defined validations.
+1. In the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group ID – add the following lines into the **Travel** entity, right after the previously defined validations.
 
     <pre>
     draft determine action Prepare  {
@@ -138,11 +138,11 @@ Now that you've...
 - implemented them in the behavior implementation class and
 - assigned them to the draft determine action prepare, 
 
-you can continue with - [Exercise 10 - Authorizations](../ex10/README.md)
+you can continue with - [Exercise 10 - Authorizations (optional)](../ex10/README.md)
 
 ## Appendix
 
-Find the source code for the exception class, the base behavior definition and the travel behavior implementation class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the exception class, the base behavior definition and the travel behavior implementation class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Exception Class ZCM_RAP_####](sources/EX9_2_CLAS_ZCM_RAP.txt)
 - [Behavior Definition ZI_RAP_TRAVEL_####](sources/EX9_4_BDEF_ZI_RAP_TRAVEL.txt)

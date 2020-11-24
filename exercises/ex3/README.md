@@ -13,11 +13,13 @@ Further information can be found here: [CDS Projection View](https://help.sap.co
  
     ![Create Travel BO projection view](images/ctravelCDS01.png)
 
-2.  Maintain **`ZC_RAP_Travel_####`** (where `####` is your group-id) as name and a **description** (e.g. _Travel BO projection view_) in the creation wizard and choose **Next >** to continue. 
+2.  Maintain **`ZC_RAP_Travel_####`** (where `####` is your group ID) as name and a **description** (e.g. _Travel BO projection view_) in the creation wizard and choose **Next >** to continue. 
 
     ![Create Travel BO projection view](images/ctravelCDS02.png)
 
-3. Assign a transport request and choose **Finish**. Replace the travel data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group-id. 
+3. Assign a transport request and choose **Finish** (please note: clicking on **Next** in the _Selection of Transport Request_ step, you get to the optional _Templates_ step in which you can choose from predefined templates).
+
+    Replace the travel data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group ID. 
 
     Save ![save icon](images/adt_save.png) the changes, but **DO NOT** yet activate the travel BO projection view.
 
@@ -78,11 +80,11 @@ Further information can be found here: [CDS Projection View](https://help.sap.co
  
     ![Create Booking BO projection view](images/cbookingCDS01.png)
 
-2.  Maintain **`ZC_RAP_BOOKING_####`** (where `####` is your group-id) as name and a description (e.g. _Booking BO projection view_) in the creation wizard and choose **Next >** to continue.  
+2.  Maintain **`ZC_RAP_BOOKING_####`** (where `####` is your group ID) as name and a description (e.g. _Booking BO projection view_) in the creation wizard and choose **Next >** to continue.  
  
     ![Create Booking BO projection view](images/cbookingCDS02.png)
 
-3. Assign a transport request and choose **Finish**. Replace the booking data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group-id. 
+3. Assign a transport request and choose **Finish**. Replace the booking data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group ID. 
 
     Save ![save icon](images/adt_save.png) the changes, but **DO NOT** yet activate the booking BO projection view.
     
@@ -158,7 +160,7 @@ you can continue with - [Exercise 4 - Metadata Extensions](../ex4/README.md)
 
 ## Appendix
 
-Find the source code for the CDS views in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the CDS views in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [CDS View ZC_RAP_TRAVEL_####](sources/EX3_1_DDLS_ZC_RAP_TRAVEL.txt)
 - [CDS View ZC_RAP_BOOKING_####](sources/EX3_2_DDLS_ZC_RAP_BOOKING.txt)

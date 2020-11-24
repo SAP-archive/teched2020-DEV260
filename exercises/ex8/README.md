@@ -10,7 +10,7 @@ Further information can be found here: [Developing Determinations](https://help.
 > Please note: Determinations have to be idempotent, i.e. they have to produce the same result even if the framework calls them multiple times.
 
 ## Exercise 8.1 - Base Behavior Definition
-1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group-id – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
+1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group ID – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
 
 2. Add the following lines into the **Travel** entity, right after the previously defined actions.
 
@@ -38,11 +38,11 @@ Further information can be found here: [Developing Determinations](https://help.
 
 3. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the behavior definition.
 
-4. You can again use the quick-fixes to generate or update the local handler classes in the related behavior implementation classes. This approach would be used in a regular development flow.
+4. You can again use the Quick Fixes to generate or update the local handler classes in the related behavior implementation classes. This approach would be used in a regular development flow.
 
-5. In this exercise we replace the entire code with the prepared one. Open the behavior implementation class **zbp_i_rap_travel_####** for the **Travel** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group-id:
+5. In this exercise we replace the entire code with the prepared one. Open the behavior implementation class **zbp_i_rap_travel_####** for the **Travel** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group ID:
 
-    [Behavior Implementation Class ZBP_I_RAP_TRAVEL_####](sources/EX8_1_CLAS_ZBP_I_RAP_TRAVEL.txt)
+    > Find the source code here: [Behavior Implementation Class ZBP_I_RAP_TRAVEL_####](sources/EX8_1_CLAS_ZBP_I_RAP_TRAVEL.txt)
 
     This declares and implements three determinations. **setInitialStatus** sets the overall travel status to `Open` when a new travel instance is created.
     
@@ -52,9 +52,9 @@ Further information can be found here: [Developing Determinations](https://help.
 
 6. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the class.
 
-7. Open the behavior implementation class **zbp_i_rap_booking_####** for the **Booking** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group-id:
+7. Open the behavior implementation class **zbp_i_rap_booking_####** for the **Booking** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group ID:
 
-    [Behavior Implementation Class ZBP_I_RAP_BOOKING_####](sources/EX8_1_CLAS_ZBP_I_RAP_BOOKING.txt)
+    > Find the source code here: [Behavior Implementation Class ZBP_I_RAP_BOOKING_####](sources/EX8_1_CLAS_ZBP_I_RAP_BOOKING.txt)
 
     This declares and implements two determinations. **calculateBookingID** calculates a booking id for newly created booking instances - i.e. booking instances that do not yet have a booking id. For this the implementation first uses a read-by-association to read the associated travel header. From the header again a read-by-association takes place to read all existing bookings. With this information an internal `update` table is prepared to fill the booking id for those that don't yet have an id.
     
@@ -81,7 +81,7 @@ you can continue with - [Exercise 9 - Validations](../ex9/README.md)
 
 ## Appendix
 
-Find the source code for the base behavior definition, the travel and booking behavior implementation classes in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the base behavior definition, the travel and booking behavior implementation classes in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Behavior Definition ZI_RAP_TRAVEL_####](sources/EX8_1_BDEF_ZI_RAP_TRAVEL.txt)
 - [Behavior Implementation Class ZBP_I_RAP_Travel_####](sources/EX8_1_CLAS_ZBP_I_RAP_TRAVEL.txt)

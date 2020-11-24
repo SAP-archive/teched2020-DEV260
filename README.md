@@ -12,6 +12,8 @@ In this session we will guide you to build a draft-enabled transactional SAP Fio
 
 The Fiori app you are going to implement is based on the RAP Flight Reference Scenario. To set the business context the scenario is the following: The department responsible for managing worldwide Travels for multiple Agencies is requesting you to build a new Fiori app with draft capabilities for processing (i.e. creating, updating and deleting) Travels.
 
+Presentation: [DEV260 - Build SAP Fiori Apps with the ABAP RESTful Application Programming Model](presentation/DEV260.pdf)
+
 Further reading: [Developing Transactional Apps with Draft Capabilities](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/71ba2bec1d0d4f22bc344bba6b569f2e.html)
 
 ## Requirements
@@ -35,7 +37,7 @@ Follow these steps to build a draft-enabled transactional Fiori app with RAP.
 - [Exercise 7 - Actions](exercises/ex7/)
 - [Exercise 8 - Determinations](exercises/ex8/)
 - [Exercise 9 - Validations](exercises/ex9/)
-- [Exercise 10 - Authorizations](exercises/ex10/)
+- [Exercise 10 - Authorizations (optional)](exercises/ex10/)
 
 ## How to obtain support
 

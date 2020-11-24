@@ -14,11 +14,11 @@ The service definition specifies the service scope, i.e. the relevant entity set
 
     ![Create Service Definition](images/servicedefinition01.png)
 
-2.	Maintain **`ZUI_RAP_Travel_####`** (where `####` is your group-id) as **name** and a **description** (e.g. _`Serv Definition for Travel App`_) in the creation wizard and choose **Next >** to continue.
+2.	Maintain **`ZUI_RAP_Travel_####`** (where `####` is your group ID) as **name** and a **description** (e.g. _`Serv Definition for Travel App`_ ) in the creation wizard and choose **Next >** to continue.
  
     ![Create Service Definition](images/servicedefinition02.png)
               
-3.	Assign a transport request and choose **Finish**. Replace the code in the editor with the code snippet provided below. Do not forget to replace all the occurrences of `####` with your group-id.
+3.	Assign a transport request and choose **Finish**. Replace the code in the editor with the code snippet provided below. Do not forget to replace all the occurrences of `####` with your group ID.
  
     <pre>
     @EndUserText.label: 'Serv Definition for Travel App'
@@ -49,7 +49,7 @@ The service binding binds your service definition to the required protocol.
 
     ![Create Service Binding](images/servicebinding01.png)
 
-2.	Maintain **`ZUI_RAP_TRAVEL_O4_####`** (where `####` is your group-id) as name and a description (e.g. _`OData V4 UI service for SAP Fiori Travel App`_, choose **`OData V4 - UI`** as Binding Type and choose **Next >** to continue.
+2.	Maintain **`ZUI_RAP_TRAVEL_O4_####`** (where `####` is your group ID) as name and a description (e.g. _`OData V4 UI service for SAP Fiori Travel App`_, choose **`OData V4 - UI`** as Binding Type and choose **Next >** to continue.
 
     ![Create Service Binding](images/servicebinding02.png)
 
@@ -95,6 +95,6 @@ you can continue with - [Exercise 6 - Business Object Behavior](../ex6/README.md
 
 ## Appendix
 
-Find the source code for the service definition in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the service definition in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Service Definition ZUI_RAP_TRAVEL_####](sources/EX5_1_SRVD_ZUI_RAP_TRAVEL.txt)

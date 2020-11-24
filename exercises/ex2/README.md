@@ -13,12 +13,14 @@ We assume that you are familiar with working with ABAP CDS views. Further inform
  
     ![Create Travel BO view](images/itravelCDS01.png)
 
-2.  Maintain **` ZI_RAP_Travel_####`** (where `####` is your group-id) as name and a **description** (e.g. _Travel BO view_) in the creation wizard and choose **NEXT** to continue.  
+2.  Maintain **` ZI_RAP_Travel_####`** (where `####` is your group ID) as name and a **description** (e.g. _Travel BO view_) in the creation wizard and choose **Next** to continue.  
     > In this exercise, we will follow the naming convention of the Virtual Data Model (VDM) of the SAP S/4HANA where the name of interface and BO views begins with _`<namespace>I`_ and the name of consumption views begins with the namespace followed by _`<namespace>C`_.
    
     ![Create Travel BO view](images/itravelCDS02.png)
 
-3. Assign a transport request and choose **Finish**. Replace the code of the travel data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group-id. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose.
+3. Assign a transport request and choose **Finish** (please note: clicking on **Next** in the _Selection of Transport Request_ step, you get to the optional _Templates_ step in which you can choose from predefined templates). 
+
+    Replace the code of the travel data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group ID. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose.
 
     <pre>
     @AccessControl.authorizationCheck: #CHECK
@@ -78,11 +80,11 @@ We assume that you are familiar with working with ABAP CDS views. Further inform
 
     ![Create Booking BO view](images/ibookingCDS01.png)
 
-2.  Maintain **`ZI_RAP_Booking_####`** (where `####` is your group-id) as name and a **description** (e.g. _Booking BO view_) in the creation wizard and choose **Next** to continue.  
+2.  Maintain **`ZI_RAP_Booking_####`** (where `####` is your group ID) as name and a **description** (e.g. _Booking BO view_) in the creation wizard and choose **Next** to continue.  
  
     ![Create Booking BO view](images/ibookingCDS02.png)
 
-3. Assign a transport request and choose **Finish**. Replace the code of the booking data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group-id. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose.
+3. Assign a transport request and choose **Finish**. Replace the code of the booking data definition in the editor with the code snippet provided below and replace all occurrences of  `####` with your group ID. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose.
 
     <pre>
     @AccessControl.authorizationCheck: #CHECK
@@ -162,7 +164,7 @@ you can continue with - [Exercise 3 - CDS Data Model Projection](../ex3/README.m
 
 ## Appendix
 
-Find the source code for the CDS views in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the CDS views in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [CDS View ZI_RAP_TRAVEL_####](sources/EX2_1_DDLS_ZI_RAP_TRAVEL.txt)
 - [CDS View ZI_RAP_BOOKING_####](sources/EX2_2_DDLS_ZI_RAP_BOOKING.txt)

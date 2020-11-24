@@ -30,7 +30,7 @@ The behavior definition specifies the transactional capabilities of the business
     
     You will adjust the behavior definition in the next steps.
 
-4. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group-id.
+4. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group ID.
 
     <pre>
     managed;
@@ -123,7 +123,7 @@ The behavior definition specifies the transactional capabilities of the business
 
 ## Exercise 6.2 - Draft tables
 
-1. Click on the quick-fix icon in the line with the draft table declaration (`draft table zrap_dtrav_####`) to open the quick-fix context menu. Double-click the entry **Create draft table zrap_dtrav_#### for entity zi_rap_travel_####**.
+1. Click on the Quick Fix icon in the line with the draft table declaration (`draft table zrap_dtrav_####`) to open the Quick Fix context menu. Double-click the entry **Create draft table zrap_dtrav_#### for entity zi_rap_travel_####**.
      
     ![Create Behavior Definition](images/basebdef05.png)
 
@@ -138,8 +138,8 @@ The behavior definition specifies the transactional capabilities of the business
 4. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the table definition.
 
 5. Go back to the behavior definition, scroll down to the booking entity and perform the same steps for the draft table **zrap_dbook_####**:
-   - Click on the quick-fix icon in the line `draft table zrap_dbook_####`
-   - In the quick-fix context menu double-click **Create draft table zrap_dbook_#### for entity zi_rap_booking_####**
+   - Click on the Quick Fix icon in the line `draft table zrap_dbook_####`
+   - In the Quick Fix context menu double-click **Create draft table zrap_dbook_#### for entity zi_rap_booking_####**
    - Click **Next >** in the _New Draft Table_ wizard, assign a transport request and click **Finish**
    - Save and activate the table definition
    
@@ -149,9 +149,9 @@ The behavior definition specifies the transactional capabilities of the business
 
     ![Create Behavior Definition](images/basebdef08.png)
 
-2. Click on the quick-fix icon in the line with the implementation class for the travel entity (`implementation in class zbp_i_rap_travel_#### unique`) to open the quick-fix context menu. Double-click the entry **Create behavior implementation class zbp_i_rap_travel_####**. 
+2. Click on the Quick Fix icon in the line with the implementation class for the travel entity (`implementation in class zbp_i_rap_travel_#### unique`) to open the Quick Fix context menu. Double-click the entry **Create behavior implementation class zbp_i_rap_travel_####**. 
 
-    Alternatively you can put the cursor on the highlighted statement (`zbp_i_rap_travel_####`) and press **Ctrl-1**. This also opens the quick-fix context menu.
+    Alternatively you can put the cursor on the highlighted statement (`zbp_i_rap_travel_####`) and press **Ctrl+1**. This also opens the Quick Fix context menu.
 
     ![Create Behavior Definition](images/basebdef09.png)
 
@@ -166,8 +166,8 @@ The behavior definition specifies the transactional capabilities of the business
 5. We will later on take care about the implementation. For now you can save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the class.
 
 6. Go back to the behavior definition, scroll down to the booking entity and perform the same steps for the behavior implementation class **zbp_i_rap_booking_####**:
-   - Click on the quick-fix icon in the line `implementation in class zbp_i_rap_booking_#### unique`
-   - In the quick-fix context menu double-click **Create behavior implementation class zbp_i_rap_booking_####**
+   - Click on the Quick Fix icon in the line `implementation in class zbp_i_rap_booking_#### unique`
+   - In the Quick Fix context menu double-click **Create behavior implementation class zbp_i_rap_booking_####**
    - Click **Next >** in the _New Behavior Class_ wizard, assign a transport request and click **Finish**
    - The class is defaulted with only a comment but no coding. That is fine.
 
@@ -194,7 +194,7 @@ Further information can be found here: [Business Object Projection](https://help
 
     ![Create Behavior Projection](images/projectionbdef03.png)
  
-4. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group-id.
+4. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group ID.
 
     <pre>
     projection;
@@ -231,6 +231,7 @@ Further information can be found here: [Business Object Projection](https://help
 1. Use the service binding to start the app preview. Make sure to launch the **Travel** entity set. In case the browser window is still open it's also sufficient to simply reload (F5) the page.
 
    > Please note: In the trial environment it might take a while until your changes are reflected. 
+   > You may also, for example, empty your browser cache and trigger a hard reload.
    
    As a result, you can see that the create, update and delete operations are enabled.
   
@@ -254,7 +255,7 @@ you can continue with - [Exercise 7 - Actions](../ex7/README.md)
 
 ## Appendix
 
-Find the source code for the base behavior definition and the behavior definition projection in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the base behavior definition and the behavior definition projection in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Behavior Definition ZI_RAP_TRAVEL_####](sources/EX6_1_BDEF_ZI_RAP_TRAVEL.txt)
 - [Behavior Definition ZC_RAP_TRAVEL_####](sources/EX6_2_BDEF_ZC_RAP_TRAVEL.txt)

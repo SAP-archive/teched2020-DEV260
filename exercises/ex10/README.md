@@ -1,4 +1,4 @@
-# Exercise 10 - Authorizations
+# Exercise 10 - Authorizations (optional)
 
 ## Introduction
 In the previous exercise you've defined and implemented validations (see [Exercise 9](/exercises/ex9/README.md)).
@@ -11,11 +11,11 @@ Further information can be found here: [Adding Authorization Control to Managed 
 
 ## Exercise 10.1 - Authorization Field
 
-1.	Underneath your package in the Project Explorer, right-click on **Authorizations** and select **`New > Authorization Field`** from the context menu.
+1.	Underneath your package in the Project Explorer, right-click on **Authorizations** and select **`New > Authorization Field`** from the context menu (in case the **Authorizations** entry is not visible, right-click on the package name and choose **Refresh F5**).
  
     ![Create Authorization Field](images/auth01.png)
 
-2.	Maintain **`ZOSTAT####`** (where `####` is your group-id) as **name** in the creation wizard and choose **Next >**.  
+2.	Maintain **`ZOSTAT####`** (where `####` is your group ID) as **name** in the creation wizard and choose **Next >**.  
 
     ![Create Authorization Field](images/auth02.png)
     
@@ -33,7 +33,7 @@ Further information can be found here: [Adding Authorization Control to Managed 
 
     ![Create Authorization Field](images/auth04.png)
     
-2.	Maintain **`ZOSTAT####`** (where `####` is your group-id) as name and a description (e.g. _**Authorization object for Travel Status**_) in the creation wizard and choose **Next >** to continue.  
+2.	Maintain **`ZOSTAT####`** (where `####` is your group ID) as name and a description (e.g. _**Authorization object for Travel Status**_) in the creation wizard and choose **Next >** to continue.  
     
     ![Create Authorization Object](images/auth05.png)
     
@@ -54,7 +54,7 @@ Further information can be found here: [Adding Authorization Control to Managed 
 ## Exercise 10.3 - Define the Authorization Master and the Authorization Dependent
 The **authorization master** defines the node where the authorization checks are implemented. Currently only the root node can be defined as authorization master. All other nodes in the composition hierarchy have to be defined as **authorization dependent**, delegating authorization requests via the association to the corresponding master.
 
-1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group-id – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
+1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group ID – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
 
 2. Add the following line into the **Travel** entity, right after the `etag master LocalLastChangedAt` statement.
 
@@ -76,11 +76,11 @@ The **authorization master** defines the node where the authorization checks are
 
 ## Exercise 10.4 - Behavior Implementation
 
-1. You can again use the quick-fix marker to add the missing implementations into the local handler class. This approach would be used in a regular development flow.
+1. You can again use the Quick Fix marker to add the missing implementations into the local handler class. This approach would be used in a regular development flow.
 
     ![Base Behavior Definition](images/auth09.png)
 
-2. In this exercise we replace the entire code with the prepared one. Open the behavior implementation class **zbp_i_rap_travel_####** for the **Travel** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group-id:
+2. In this exercise we replace the entire code with the prepared one. Open the behavior implementation class **zbp_i_rap_travel_####** for the **Travel** entity. Replace the **entire** code on the **_Local Types tab_** with the following coding and replace all occurrences of  `####` with your group ID:
 
     [Behavior Implementation Class ZBP_I_RAP_TRAVEL_####](sources/EX10_4_CLAS_ZBP_I_RAP_TRAVEL.txt)
 
@@ -118,7 +118,7 @@ you are done with this workshop. Congratulations!
 
 ## Appendix
 
-Find the source code for the base behavior definition, the travel behavior implementation class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the base behavior definition, the travel behavior implementation class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Behavior Definition ZI_RAP_TRAVEL_####](sources/EX10_3_BDEF_ZI_RAP_TRAVEL.txt)
 - [Behavior Implementation Class ZBP_I_RAP_Travel_####](sources/EX10_4_CLAS_ZBP_I_RAP_TRAVEL.txt)

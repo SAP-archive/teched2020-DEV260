@@ -1,7 +1,7 @@
 # Exercise 1 - Database Tables
 
 ## Introduction
-You've already defined a group-id and created an ABAP package as described in the [Getting Started](/exercises/ex0/README.md) section.
+You've already defined a group ID and created an ABAP package as described in the [Getting Started](/exercises/ex0/README.md) section.
 
 In this exercise you will create two database tables to store the **travel** and **booking** data. You'll also create a little helper class to populate some sample data into both tables.
 
@@ -11,7 +11,7 @@ The data model in this workshop consists of two transactional tables (**travel**
 
 ## Exercise 1.1 - Create the Travel database table
 A Travel entity defines general travel data, such as the agency ID or customer ID, the overall status of the travel and the price of travel.   
-1. Right click on your package **`ZRAP_TRAVEL_####`** (where `####` is your group-id), choose **_New > Other ABAP Repository Object_** from the context menu.   
+1. Right click on your package **`ZRAP_TRAVEL_####`** (where `####` is your group ID), choose **_New > Other ABAP Repository Object_** from the context menu.   
 
    ![Create Database Table](images/traveltable01.png)
 
@@ -19,7 +19,7 @@ A Travel entity defines general travel data, such as the agency ID or customer I
 
    ![Create Database Table](images/traveltable02.png)
 
-3. Provide **`ZRAP_ATRAV_####`** (where `####` is your group-id) as name and a description (e.g. *Travel data*) in the appearing dialog and choose **Next**.  
+3. Provide **`ZRAP_ATRAV_####`** (where `####` is your group ID) as name and a description (e.g. *Travel data*) in the appearing dialog and choose **Next**.  
 
    ![Create Database Table](images/traveltable03.png)
 
@@ -27,10 +27,10 @@ A Travel entity defines general travel data, such as the agency ID or customer I
 
    ![Create Database Table](images/traveltable04.png)  
 
-5. Replace the source code with the code snippet provided below and replace all occurrences of `####` with your group-id. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose. 
+5. Replace the source code with the code snippet provided below and replace all occurrences of `####` with your group ID. You can make use of the Replace All feature (**Ctrl+F**) in ADT for this purpose. 
 
     <pre>
-    @EndUserText.label : 'Travel Table'
+    @EndUserText.label : 'Travel data'
     @AbapCatalog.enhancementCategory : #NOT_EXTENSIBLE
     @AbapCatalog.tableCategory : #TRANSPARENT
     @AbapCatalog.deliveryClass : #C
@@ -76,7 +76,7 @@ A Booking entity comprises general flight and booking data, the customer ID for 
 
    ![Create Database Table](images/bookingtable01.png)
 
-2. Maintain **`ZRAP_ABOOK_####`** (where `####` is your group-id) as name and a description (e.g. **_Booking data_**) in the appearing dialog and choose **Next**. 
+2. Maintain **`ZRAP_ABOOK_####`** (where `####` is your group ID) as name and a description (e.g. **_Booking data_**) in the appearing dialog and choose **Next**. 
 
    ![Create Database Table](images/bookingtable02.png)
 
@@ -84,10 +84,10 @@ A Booking entity comprises general flight and booking data, the customer ID for 
 
    ![Create Database Table](images/bookingtable03.png)
 
-4. Replace the default source code with the code snippet provided below and replace all occurrences of  `####` with your group-id. You can make use of the Replace All feature (shortcut **Ctrl+F**) in ADT for this purpose.  
+4. Replace the default source code with the code snippet provided below and replace all occurrences of  `####` with your group ID. You can make use of the Replace All feature (shortcut **Ctrl+F**) in ADT for this purpose.  
 
     <pre> 
-    @EndUserText.label : 'Booking Table'
+    @EndUserText.label : 'Booking data'
     @AbapCatalog.enhancementCategory : #NOT_EXTENSIBLE
     @AbapCatalog.tableCategory : #TRANSPARENT
     @AbapCatalog.deliveryClass : #C
@@ -127,11 +127,11 @@ Create a little helper class to fill some demo data into the previously created 
 
    ![Generate Demo Data](images/filltables01.png)
 
-2. Provide **`ZCL_GENERATE_DEMO_DATA_####`** (where `####` is your group-id) as name and a description (e.g. **_Generate travel and booking demo data_**) in the creation wizard for the new ABAP class and choose **Next**.
+2. Provide **`ZCL_GENERATE_DEMO_DATA_####`** (where `####` is your group ID) as name and a description (e.g. **_Generate travel and booking demo data_**) in the creation wizard for the new ABAP class and choose **Next**.
 
     ![Generate Demo Data](images/filltables02.png)
 
-3. Assign a transport request and choose **Finish**. Replace the entire code with the snippet provided below and replace all occurrences of `####` with your group-id.
+3. Assign a transport request and choose **Finish**. Replace the entire code with the snippet provided below and replace all occurrences of `####` with your group ID.
 
     <pre> 
     CLASS zcl_generate_demo_data_#### DEFINITION
@@ -228,7 +228,7 @@ you can continue with - [Exercise 2 - Core Data Services (CDS) Data Model](../ex
 
 ## Appendix
 
-Find the source code for the database tables and the helper class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the database tables and the helper class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Table ZRAP_ATRAV_####](sources/EX1_1_TABL_ZRAP_ATRAV.txt)
 - [Table ZRAP_ZRAP_ABOOK_####](sources/EX1_2_TABL_ZRAP_ABOOK.txt)

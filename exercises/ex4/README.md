@@ -13,11 +13,13 @@ Further information can be found here: [Metadata Extensions](https://help.sap.co
                                                   
     ![Create Travel MDE](images/travelmde01.png)
  
-2.	Maintain **`ZC_RAP_Travel_####`** (where `####` is your group-id) as name and a description (e.g. _UI Annotations for ZC\_RAP\_Travel\_####_) and choose _**Next >**_ to continue.
+2.	Maintain **`ZC_RAP_Travel_####`** (where `####` is your group ID) as name and a description (e.g. _UI Annotations for ZC\_RAP\_Travel\_####_) and choose _**Next >**_ to continue.
  
     ![Create Travel MDE](images/travelmde02.png)
 
-3.	Assign a transport request and choose **Finish**. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group-id.
+3.	Assign a transport request and choose **Finish** (please note: clicking on **Next** in the _Selection of Transport Request_ step, you get to the optional _Templates_ step in which you can choose from predefined templates). 
+
+    Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group ID.
 
     <pre>
     @Metadata.layer: #CORE
@@ -112,11 +114,11 @@ Further information can be found here: [Metadata Extensions](https://help.sap.co
  
     ![Create Booking MDE](images/bookingmde01.png)
 
-2.	Maintain **`ZC_RAP_Booking_####`** (where `####` is your group-id) as name and a description (e.g. _UI Annotations for ZC\_RAP\_Booking\_####_)  and choose **Next >** to continue.
+2.	Maintain **`ZC_RAP_Booking_####`** (where `####` is your group ID) as name and a description (e.g. _UI Annotations for ZC\_RAP\_Booking\_####_)  and choose **Next >** to continue.
  
     ![Create Booking MDE](images/bookingmde02.png)
     
-3.	Assign a transport request and choose **Finish**. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group-id.
+3.	Assign a transport request and choose **Finish**. Replace the code in the editor with the code provided below and replace all occurrences of  `####` with your group ID.
 
     <pre>
     @Metadata.layer: #CORE
@@ -183,7 +185,7 @@ you can continue with - [Exercise 5 - Business Service](../ex5/README.md)
 
 ## Appendix
 
-Find the source code for the CDS views in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group-id.
+Find the source code for the CDS views in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID.
 
 - [Metadata Extension ZC_RAP_TRAVEL_####](sources/EX4_1_DDLX_ZC_RAP_TRAVEL.txt)
 - [Metadata Extension ZC_RAP_BOOKING_####](sources/EX4_2_DDLX_ZC_RAP_BOOKING.txt)
