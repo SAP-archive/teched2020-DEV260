@@ -60,6 +60,8 @@ Therefore, you will first create the message class **`ZRAP_MSG_####`** to define
     
 4.	Replace the **entire** code of the exception class with the following coding and replace all occurrences of `####` with your group ID:
 
+    > Note: In case you are using letters in your group ID, make sure to perform the replacement with **capital** letters.
+
     > Find the source code here: [Exception Class ZCM_RAP_####](sources/EX9_2_CLAS_ZCM_RAP.txt)
 
     This defines five message constants for the five T100 messages the were defined before. It also specifies required variables for storing the message parameters. For parameters of type NUMC we perform an alpha conversion to remove leading zeros.
