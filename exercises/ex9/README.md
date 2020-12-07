@@ -5,7 +5,7 @@ In the previous exercise you've defined and implemented determinations (see [Exe
 
 In this exercise you will add validations to the base behavior definition. Validations allow you to check the data consistency of an instance. It's implicitly invoked by the framework as soon as a trigger condition at a predefined point in time is fulfilled. Validations can return messages to the consumer and reject inconsistent instance data from being saved.
 
-Further information can be found here: [Developing Validations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/abfbcd933c264fe4a4883d80d1e951d8.html)
+Further information can be found here: [Developing Validations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/171e26c36cca42699976887b4c8a83bf.html)
 
 ## Exercise 9.1 - Message Class
 In the behavior implementations, you will make use of your own _T100_ messages, raised by an own exception class. 
