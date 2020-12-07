@@ -9,7 +9,7 @@ You will furthermore add an internal action that is used to recalculate the tota
 
 Further information can be found here: [Actions](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/83bad707a5a241a2ae93953d81d17a6b.html)
 
-> Please note: This exercise, as well as the subsequent ones require the use of the Entity Manipulation Language (EML) which is part of the ABAP language providing type-save read and modifying access to RAP business objects. Further information can be found here: [Entity Manipulation Language (EML)](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/af7782de6b9140e29a24eae607bf4138.html)
+> Please note: This exercise, as well as the subsequent ones require the use of the Entity Manipulation Language (EML) which is part of the ABAP language providing type-safe read and modifying access to RAP business objects. Further information can be found here: [Entity Manipulation Language (EML)](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/af7782de6b9140e29a24eae607bf4138.html)
 
 ## Exercise 7.1 - Base Behavior Definition
 1. Open the base behavior definition **`ZI_RAP_Travel_####`** – where **`####`** is your group ID – of your business object by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
