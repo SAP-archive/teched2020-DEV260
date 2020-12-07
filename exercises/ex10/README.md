@@ -7,7 +7,7 @@ In this exercise you will implement instance and global authorization control fo
 
 > Please note: The ABAP trial environment does not allow for adjusting the individual user authorizations. So we can only simulate how different authorizations behave by adjusting the corresponding method implementations.
 
-Further information can be found here: [Adding Authorization Control to Managed Business Objects](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f5c7748b35ac43fa9aab05c93eba22db.html)
+Further information can be found here: [Adding Authorization Control to Managed Business Objects](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/375a8124b22948688ac1c55297868d06.html)
 
 ## Exercise 10.1 - Authorization Field
 
