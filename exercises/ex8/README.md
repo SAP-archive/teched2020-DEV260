@@ -5,7 +5,7 @@ In the previous exercise you've defined, implemented and exposed actions (see [E
 
 In this exercise you will add determinations to the base behavior definition of the Travel and Booking entity. Determinations allow you to handle side effects of modified entity instances. They are invoked by the framework as soon as a trigger condition at a predefined point in time, the determination time, is fulfilled. Possible triggers are e.g. a field change or the creation of an instance. Determinations times are `on modify` and `on save`. 
 
-Further information can be found here: [Developing Determinations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/c0a547a10ca04b1492945e9d8dc3e836.html)
+Further information can be found here: [Developing Determinations](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/6edb0438d3e14d18b3c403c406fbe209.html)
 
 > Please note: Determinations have to be idempotent, i.e. they have to produce the same result even if the framework calls them multiple times.
 
