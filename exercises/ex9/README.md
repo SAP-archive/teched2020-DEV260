@@ -101,6 +101,8 @@ Therefore, you will first create the message class **`ZRAP_MSG_####`** to define
     
     Validation **validateDates** follows the same pattern. It validates the `BeginDate` and the `EndDate`. Either if the EndDate is earlier than the BeginDate or if the BeginDate is earlier than the system date, the travel instance is considered as inconsistent. In that case the `%tky` is added to the failed parameter and a corresponding message is added to the reported parameter, explaining the problem. 
 
+    Further information about message handling can be found here: [Messages](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/ac74189b5cae49c1b091f04393bac069.html)
+
 6. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the behavior implementation class.
 
 ## Exercise 9.4 - Behavior Definition - Draft Determine Action Prepare
