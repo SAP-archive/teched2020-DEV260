@@ -133,7 +133,7 @@ Further information can be found here: [Preparing Draft Instances for Activation
   
     ![Preview App](images/validation10.png)
 
-    In case you are getting an **Unspecified provider error occurred. See Error Context and Call Stack.** error please ignore it. 
+    In case you are getting an **Unspecified provider error occurred. See Error Context and Call Stack.** error, please ignore it. 
 
     ![Error_Popup](images/validation11.png)
     
