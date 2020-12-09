@@ -48,7 +48,7 @@ Further information can be found here: [Actions](https://help.sap.com/viewer/923
     
     In EML the addition **IN LOCAL MODE** is used for business object internal operations. It behaves like a private method call, and e.g. skips the feature and authorization control.
     
-    The result table is filled with the updated instances as defined in the base behavior definition (`result [1] $self;`). This avoids another round trip for UI related use cases to fetch the update data. 
+    The result table is filled with the updated instances as defined in the base behavior definition (`result [1] $self;`). This avoids another round trip for UI related use cases to fetch the updated data. 
     
     The **get_features** method implements the instance specific feature control (also called dynamic feature control). In the current example it enables/disables the acceptTravel and rejectTravel actions based on the current travel status. Instance specific capabilities have to be implemented in this method once the related feature is declared with `( features : instance )` in the base behavior definition. Further information can be found here: [Instance Feature Control Implementation: Dynamic Feature Control](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/9ee0a7073fef4f889e85862114b85fdd.html)
     
