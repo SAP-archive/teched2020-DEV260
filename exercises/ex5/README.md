@@ -73,6 +73,8 @@ The service binding binds your service definition to the required protocol.
 
     Your SAP Fiori elements-based Travel List Report app will open in the browser. You might need to provide your login information (email address / password) to connect to the trial account. 
     
+    > Note: In case you are getting an **Application could not be started due to technical issues.**, **Service group '...' not published** error please wait some time and refresh **F5** the browser. It may take a while until the app servers are synchronized. There is no need to e.g. unpublish/publish the service again.
+    
 2. Press the **Go** button to load the data. 
 
     ![Travel App Preview](images/preview02.png)
