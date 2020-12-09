@@ -11,7 +11,7 @@ Further information can be found here: [Adding Authorization Control to Managed 
 
 ## Exercise 10.1 - Authorization Field
 
-1.	Underneath your package in the Project Explorer, right-click on **Authorizations** and select **`New > Authorization Field`** from the context menu (in case the **Authorizations** entry is not visible, right-click on the package name and choose **Refresh F5**).
+1.	Underneath your package in the Project Explorer, right-click on **Authorizations** and select **`New > Authorization Field`** from the context menu (in case the **Authorizations** entry is not visible, right-click on the package name and choose **Load Full Content F5** / **Refresh F5**).
  
     ![Create Authorization Field](images/auth01.png)
 
