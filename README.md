@@ -1,5 +1,7 @@
 # DEV260 - Build SAP Fiori Apps with the ABAP RESTful Application Programming Model
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2020-DEV260)](https://api.reuse.software/info/github.com/SAP-samples/teched2020-DEV260)
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2020 session called **DEV260** - **Build SAP Fiori Apps with the ABAP RESTful Application Programming Model**.  
