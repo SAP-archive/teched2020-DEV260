@@ -79,11 +79,30 @@ For the actions to become available as buttons on the Fiori Elements UI you need
 
 1. Open the metadata extension **`ZC_RAP_TRAVEL_####`** – where **`####`** is your group ID – by either double-clicking on it in the _Project Explorer_ or using the shortcut **Ctrl+Shift+A** (_Open ABAP Development Object_).
 
-2. Scroll down and find the UI annotations for the `TravelStatus` element. Remove the comments for both actions for the UI.lineItem as well as the UI.identification annotation. Your metadata extension should look as follows:
+ > Please note: If you are carrying out the **FAST TRACK** version of DEV260, then skip step 7.3.2 and go ahead with 7.3.3 directly. 
+
+2. Scroll down and find the UI annotations for the **`TravelStatus`** element. Remove the comments for both actions for the UI.lineItem as well as the UI.identification annotation. Your metadata extension should look as follows:
     
     ![Actions](images/action05.png)
+
+3. \[FAST TRACK\] Scroll down and find the UI annotations for the **`TravelStatus`** element. Replace the existing **`@UI`** annotation blocks (`@UI.lineItem` and `@UI.identification`) with code snippet provided below to add both actions to the list report page and the object page.   
     
-3. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the metadata extension.
+    <pre>
+      @UI: {  lineItem:       [ { position: 110 }
+                            , { type: #FOR_ACTION, dataAction: 'acceptTravel', label: 'Accept Travel' },
+                              { type: #FOR_ACTION, dataAction: 'rejectTravel', label: 'Reject Travel' }
+                          ],
+          identification: [ { position: 110 }
+                            , { type: #FOR_ACTION, dataAction: 'acceptTravel', label: 'Accept Travel' },
+                              { type: #FOR_ACTION, dataAction: 'rejectTravel', label: 'Reject Travel' }
+                          ] } 
+    </pre>
+
+    Your metadata extension should look as follows:
+    
+    ![Actions](images/action05ft.png)
+    
+4. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the metadata extension.
 
 ## Exercise 7.4 - Preview the Travel App 
 
