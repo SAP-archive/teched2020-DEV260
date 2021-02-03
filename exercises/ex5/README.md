@@ -1,7 +1,7 @@
 # Exercise 5 - Business Service
 
 ## Introduction
-In the previous exercise you've created the metadata extensions for the travel and the booking projection views (see [Exercise 4](/exercises/ex4/README.md) or the Fast track version [Exercise 1-4](/exercises/ex1_4/README.md)).
+In the previous exercise you've created the metadata extensions for the travel and the booking projection views (see [Exercise 4](/exercises/ex4/README.md) or the Fast track version [Exercises 1-4](/exercises/ex1_4/README.md)).
 
 In this exercise you will expose your projected CDS data model as OData service using business services – i.e. service definition and service binding.  
 
