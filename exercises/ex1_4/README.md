@@ -1,4 +1,4 @@
-# Exercise 1_4 (Fast Track) - Generate Data Model  
+# Exercises 1-4 (Fast Track) - Generate Data Model  
 
 ## Introduction
 The data model in this workshop consists of two transactional tables (**travel** and **booking**) as well as some master data that we will re-use from the already existing demo content (**Agency**, **Customer** and **Flight**), as well as a few more.   
