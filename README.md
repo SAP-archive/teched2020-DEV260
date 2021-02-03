@@ -27,19 +27,23 @@ The requirements to follow the exercises in this repository are:
 
 ## Exercises
 
-Follow these steps to build a draft-enabled transactional Fiori app with RAP.
+Follow these steps to build a draft-enabled transactional Fiori app with RAP. 
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - Database Tables](exercises/ex1/)
-- [Exercise 2 - Core Data Services (CDS) Data Model](exercises/ex2/)
-- [Exercise 3 - CDS Data Model Projection](exercises/ex3/)
-- [Exercise 4 - Metadata Extensions](exercises/ex4/)
-- [Exercise 5 - Business Service](exercises/ex5/)
-- [Exercise 6 - Business Object Behavior](exercises/ex6/)
-- [Exercise 7 - Actions](exercises/ex7/)
-- [Exercise 8 - Determinations](exercises/ex8/)
-- [Exercise 9 - Validations](exercises/ex9/)
-- [Exercise 10 - Authorizations (optional)](exercises/ex10/)
+The **Fast Track** uses a tool to generate the artefacts of exercises 1-4. In the **Regular Track** you create them manually, step-by-step.
+
+| Regular Track | Fast Track |
+| ------------- | ---------- |
+| [Getting Started](exercises/ex0/) | [Getting Started](exercises/ex0/) | [Getting Started](exercises/ex0/) | [Getting Started](exercises/ex0/) |
+| [Exercise 1 - Database Tables](exercises/ex1/) | [Exercises 1-4 - Generate Data Model](exercises/ex1_4/) |
+| [Exercise 2 - Core Data Services (CDS) Data Model](exercises/ex2/) |
+| [Exercise 3 - CDS Data Model Projection](exercises/ex3/) |
+| [Exercise 4 - Metadata Extensions](exercises/ex4/) |
+| [Exercise 5 - Business Service](exercises/ex5/) | [Exercise 5 - Business Service](exercises/ex5/) |
+| [Exercise 6 - Business Object Behavior](exercises/ex6/) | [Exercise 6 - Business Object Behavior](exercises/ex6/) |
+| [Exercise 7 - Actions](exercises/ex7/) | [Exercise 7 - Actions](exercises/ex7/) |
+| [Exercise 8 - Determinations](exercises/ex8/) | [Exercise 8 - Determinations](exercises/ex8/) |
+| [Exercise 9 - Validations](exercises/ex9/) | [Exercise 9 - Validations](exercises/ex9/) |
+| [Exercise 10 - Authorizations (optional)](exercises/ex10/) | [Exercise 10 - Authorizations (optional)](exercises/ex10/) |
 
 ## How to obtain support
 
