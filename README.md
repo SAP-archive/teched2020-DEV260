@@ -33,7 +33,7 @@ The **Fast Track** uses a tool to generate the artefacts of exercises 1-4. In th
 
 | Regular Track | Fast Track |
 | ------------- | ---------- |
-| [Getting Started](exercises/ex0/) | [Getting Started](exercises/ex0/README_fast_track.md) | 
+| [Getting Started - Regular Track](exercises/ex0/) | [Getting Started - Fast Track](exercises/ex0/README_fast_track.md) | 
 | [Exercise 1 - Database Tables](exercises/ex1/) | [Exercises 1-4 - Generate Data Model](exercises/ex1_4/) |
 | [Exercise 2 - Core Data Services (CDS) Data Model](exercises/ex2/) |
 | [Exercise 3 - CDS Data Model Projection](exercises/ex3/) |
