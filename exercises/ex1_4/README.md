@@ -25,33 +25,20 @@ In the ABAP trial systems we have prepared a helper class **/dmo/cl_gen_dev260_a
 
 2. In the *Open ABAP Development Object* dialogue enter **/dmo/cl_gen_dev260_artifacts** as search string and press **OK**.      
 
-   ![Generate Data Model](images/helperclass01.png)
+   ![Generate Data Model](images/helperclass_01_new.png)
 
-2. Provide **`ZCL_RAP_GEN_DATA_MODEL_####`** (where `####` is your group ID) as name and a description (e.g. **_Generate RAP data model enriched with UI semantics_**) in the creation wizard for the new ABAP class and choose **Next**.
+2. The class **/dmo/cl_gen_dev260_artifacts** is displayed in a new tab.
 
-    ![Generate Data Model](images/helperclass02.png)
-
-3. Assign a transport request and choose **Finish**. The new class is now created and the default content displayed in the editor.
-
-    ![Generate Data Model](images/helperclass03.png)
-
-4. Replace the complete source code of the class with the provided code snippet.  
-   For that, delete the complete source code, insert the code snippet provided in the source code document **`ZCL_RAP GEN_DATA_MODEL_####`** linked below, and replace all occurrences of **`####`** with your group ID - i.e. your chosen suffix.
-      
-   > Hint: Open the document linked below in a separate windows to keep the exercise flow.
-      
-   ![doc icon](images/doc.png) **Source code document: [Class ZCL_RAP_GEN_DATA_MODEL_####](sources/EX14_1_CLAS_ZCL_RAP_GEN_DATA_MODEL.txt)**   
-                
-    The source code in the ADT editor should now look as follows:
-
-    ![Generate Data Model](images/helperclass04.png)     
-
-5. Save ![save icon](images/adt_save.png) and activate ![activate icon](images/adt_activate.png) the changes.  
+    ![Generate Data Model](images/helperclass_02_new.png)
   
-6. Press **F9** to run the ABAP class as a console application. As a result, you will see a success message in the Console.
-   The various objects have been generated and activated.
+3. Press **F9** to run the ABAP class as a console application. As a result, you will see a success message in the Console.  
+   > Please note down your group ID **####** and copy the name of the newly created package **ZRAP_TRAVEL_####**
 
-    ![Generate Data Model](images/helperclass05.png)  
+    ![Generate Data Model](images/helperclass_03_new.png)  
+    
+4. Right click on the folder **Favorite Packages** and select **Add Package...**.
+
+5. Enter the name of your package **ZRAP_TRAVEL_####** and press **OK**.   
    
 7. Go to your package `ZRAP_TRAVEL_####` in the *Project Explorer* (where `####` is your group ID) and press **F5** to refresh the project explorer. It should now contain the generated objects.  
    You can preview the data from a database table or a CDS view by choosing the relevant objects in the *Project Explorer* and pressing **F8**.
