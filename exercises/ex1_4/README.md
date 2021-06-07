@@ -31,14 +31,21 @@ In the ABAP trial systems we have prepared a helper class **/dmo/cl_gen_dev260_a
 
     ![Generate Data Model](images/helperclass_02_new.png)
   
-3. Press **F9** to run the ABAP class as a console application. As a result, you will see a success message in the Console.  
-   > Please note down your group ID **####** and copy the name of the newly created package **ZRAP_TRAVEL_####**
+3. Press **F9** to run the ABAP class as a console application. As a result, you will see a success message in the Console.     
 
     ![Generate Data Model](images/helperclass_03_new.png)  
-    
-4. Right click on the folder **Favorite Packages** and select **Add Package...**.
 
-5. Enter the name of your package **ZRAP_TRAVEL_####** and press **OK**.   
+4. Please note down your *group ID* **####** and copy the name of the newly created package **ZRAP_TRAVEL_####**
+    <pre>
+     BEGIN OF GENERATION (20210607 153713 UTC) ... 
+      - Package: ZRAP_TRAVEL_#### 
+     - Group ID: #### 
+      ...
+     </pre>
+   
+5. Right click on the folder **Favorite Packages** and select **Add Package...**.
+
+6. Enter the name of your package **ZRAP_TRAVEL_####** and press **OK**.   
    
 7. Go to your package `ZRAP_TRAVEL_####` in the *Project Explorer* (where `####` is your group ID) and press **F5** to refresh the project explorer. It should now contain the generated objects.  
    You can preview the data from a database table or a CDS view by choosing the relevant objects in the *Project Explorer* and pressing **F8**.
