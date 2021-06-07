@@ -1,4 +1,4 @@
-# Getting Started (Fast track)
+# Getting Started - Fast Track
 
 ## Introduction
 You've already created an ABAP Trial Account and connected your ADT to it using a ABAP Cloud Project as described in the [Requirements](../../../../#requirements) section.
