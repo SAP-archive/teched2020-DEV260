@@ -16,9 +16,14 @@ In the current exercise you will create a helper class which will take care of t
 - **two CDS metadata extensions** (`ZRAP_C_*`) to enrich the projected root entity *travel* and projected child entity *booking* with UI semantics for the later rendering of the SAP Fiori Elements app (UI semantics).
 
 ## Exercise 1_4.1 - Generate the data model  
-Create a helper class to generate the database tables and different CDS artefacts needed for the next exercises. The helper class will also fill some demo data into the database tables. For this purpose, demo data provided by the ABAP Flight Reference Scenario (main package: `/DMO/FLIGHT`) will be used.   
+
+In the ABAP trial systems we have prepared a helper class **/dmo/cl_gen_dev260_artifacts** to generate the database tables and different CDS artefacts needed for the next exercises. The helper class will also fill some demo data into the database tables. For this purpose, demo data provided by the ABAP Flight Reference Scenario (main package: `/DMO/FLIGHT`) will be used.   
   
-1. Right click on your package **ZRAP_TRAVEL_####** and choose **_New > ABAP Class_** from the context menu.      
+1. Select the **Open ABAP Development Object** icon or press **Ctrl+Shift+A**. 
+
+   ![Open ABAP Development Object](images/helperclass_00_new.png)
+
+2. In the *Open ABAP Development Object* dialogue enter **/dmo/cl_gen_dev260_artifacts** as search string and press **OK**.      
 
    ![Generate Data Model](images/helperclass01.png)
 
