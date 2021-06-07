@@ -45,6 +45,8 @@ In the ABAP trial systems we have prepared a helper class **/dmo/cl_gen_dev260_a
    
 5. Right click on the folder **Favorite Packages** and select **Add Package...**.
 
+   ![Open ABAP Development Object](images/helperclass_04_new.png)
+
 6. Enter the name of your package **ZRAP_TRAVEL_####** and press **OK**.   
    
 7. Go to your package `ZRAP_TRAVEL_####` in the *Project Explorer* (where `####` is your group ID) and press **F5** to refresh the project explorer. It should now contain the generated objects.  
