@@ -36,6 +36,6 @@ Enable the **Link with Editor** option. Whenever this option is enabled, the cur
 
 ## Summary
 
-Now you can continue with one of the following exercise:
+Now you can continue with the following exercise:
    - \[Fast Track\]: [Exercises 1-4 - Generate Data Model](../ex1_4/README.md) to generate the data model
    
