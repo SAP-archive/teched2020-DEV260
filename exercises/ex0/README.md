@@ -28,7 +28,9 @@ In the course of these exercises you will frequently see the task to "_replace t
    
    Choosing **Replace All** allows you to replace all ocurrences of `####` with your group ID.
 
-**Optional**: Enable the **Link with Editor** option. Whenever this option is enabled, the current object in the editor will be automatically selected in the expanded Project Explorer tree.
+## Link with Editor (Optional) 
+
+Enable the **Link with Editor** option. Whenever this option is enabled, the current object in the editor will be automatically selected in the expanded Project Explorer tree.
 
    ![create ABAP package 07](images/package07.png)
 
