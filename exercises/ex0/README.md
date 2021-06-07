@@ -73,6 +73,6 @@ Now that you have...
 - specified your individual group ID and 
 - created a package, 
 
-you can continue with one of the following exercises:
-   - \[Fast Track\]: [Exercises 1-4 - Generate Data Model](../ex1_4/README.md) to generate the data model
+you can continue withthe following exercise:
+   
    - \[Regular Track\]: [Exercise 1 - Database Tables](../ex1/README.md) to create the data model step-by-step
