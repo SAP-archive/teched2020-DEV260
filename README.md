@@ -6,6 +6,12 @@
 
 This repository contains the material for the SAP TechEd 2020 session called **DEV260** - **Build SAP Fiori Apps with the ABAP RESTful Application Programming Model**.  
 
+## Disclaimer
+
+> Note that this workshop was first offered in 2020; consequently, all its assets were created before the branding changes related to SAP technology were announced in January 2021. For example, SAP Cloud Platform, ABAP environment has been renamed to SAP Business 
+
+Technology Platform (BTP), ABAP environment.
+
 ## Overview
 
 In this session we will guide you to build a draft-enabled transactional SAP Fiori Elements Application based on the ABAP RESTful Application Programming Model (in short RAP). The underlying OData service will be exposed using the OData V4 protocol, and the resulting app will look like this:
