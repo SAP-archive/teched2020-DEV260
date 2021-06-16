@@ -163,6 +163,6 @@ Find the source code for the CDS views in the [sources](sources) folder. Don't f
 
 Find the source code for the database tables and the helper class in the [sources](sources) folder. Don't forget to replace the placeholder `####` with your group ID or chosen suffix. 
 
-- [Class ZCL_RAP_GEN_DATA_MODEL_####](sources/EX14_1_CLAS_ZCL_RAP_GEN_DATA_MODEL.txt)
+
 - [Projection View ZC_RAP_TRAVEL_####](sources/EX14_2_DDLS_ZC_RAP_TRAVEL.txt)
 - [Projection View ZC_RAP_TRAVEL_####](sources/EX14_3_DDLS_ZC_RAP_BOOKING.txt)
