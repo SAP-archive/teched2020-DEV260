@@ -165,4 +165,4 @@ Find the source code for the database tables and the helper class in the [source
 
 
 - [Projection View ZC_RAP_TRAVEL_####](sources/EX14_2_DDLS_ZC_RAP_TRAVEL.txt)
-- [Projection View ZC_RAP_TRAVEL_####](sources/EX14_3_DDLS_ZC_RAP_BOOKING.txt)
+- [Projection View ZC_RAP_BOOKING_####](sources/EX14_3_DDLS_ZC_RAP_BOOKING.txt)
