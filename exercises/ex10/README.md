@@ -12,6 +12,11 @@ Further information can be found here: [Adding Authorization Control to Managed 
 ## Exercise 10.1 - Authorization Field
 
 1.	Underneath your package in the Project Explorer, right-click on **Authorizations** and select **`New > Authorization Field`** from the context menu (in case the **Authorizations** entry is not visible, right-click on the package name and choose **Load Full Content F5** / **Refresh F5**).
+
+  > **Please note**: In case no **Authorizations** folder is available in the _Project Explorer_ view, then do as follows:
+  > 1. right-click on your exercise package and select **`New > Other ABAP Repository Objects`** from the context menu. 
+  > 2. In the appearing dialog, enter the text *`Authorizations Object`* in the filter field.
+  > 3. Select the appropriate entry and press on *Finish* to continue.
  
     ![Create Authorization Field](images/auth01.png)
 
