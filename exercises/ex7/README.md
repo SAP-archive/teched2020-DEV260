@@ -138,3 +138,4 @@ Find the source code for the base behavior definition, the behavior implementati
 - [Behavior Definition ZI_RAP_TRAVEL_####](sources/EX7_1_BDEF_ZI_RAP_TRAVEL.txt)
 - [Behavior Implementation Class ZBP_I_RAP_Travel_####](sources/EX7_1_CLAS_ZBP_I_RAP_TRAVEL.txt)
 - [Behavior Definition ZC_RAP_TRAVEL_####](sources/EX7_2_BDEF_ZC_RAP_TRAVEL.txt)
+- [Metadata Extension ZC_RAP_TRAVEL_####](sources/EX7_3_DDLX_ZC_RAP_TRAVEL.txt)
