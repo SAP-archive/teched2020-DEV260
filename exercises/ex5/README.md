@@ -46,12 +46,6 @@ The service definition specifies the service scope, i.e. the relevant entity set
 
 The service binding binds your service definition to the required protocol.
 
-> **Note: There is currently an issue with the SAPUI5 libraries that are deployed on the SAP BTP ABAP Environment Systems.**  
-> As a result the preview of the OData V4 UI binding does NOT work correctly.  
-> **Do not use the OData V4 UI binding for this exercise but the OData V2 binding**   
-> As a workaround we recommend to use the OData V2 UI Binding for this exercise instead until the patch is in place.  
-
-
 1.	Right-click on the just created service definition **`ZUI_RAP_TRAVEL_####`** in the project Explorer and choose **New Service Binding** from the context menu.
 
     ![Create Service Binding](images/servicebinding01.png)
